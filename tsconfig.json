@@ -15,14 +15,14 @@
     "composite": true,
     "baseUrl": "./packages",
     "paths": {
-      "@nestjsx/crud": ["crud/src"],
-      "@nestjsx/crud-typeorm": ["crud-typeorm/src"],
-      "@nestjsx/crud-request": ["crud-request/src"],
-      "@nestjsx/util": ["util/src"],
-      "@nestjsx/crud/*": ["crud/src/*"],
-      "@nestjsx/crud-typeorm/*": ["crud-typeorm/src/*"],
-      "@nestjsx/crud-request/*": ["crud-request/src/*"],
-      "@nestjsx/util/*": ["util/src/*"]
+      "@jifeon/crud": ["crud/src"],
+      "@jifeon/crud-typeorm": ["crud-typeorm/src"],
+      "@jifeon/crud-request": ["crud-request/src"],
+      "@jifeon/util": ["util/src"],
+      "@jifeon/crud/*": ["crud/src/*"],
+      "@jifeon/crud-typeorm/*": ["crud-typeorm/src/*"],
+      "@jifeon/crud-request/*": ["crud-request/src/*"],
+      "@jifeon/util/*": ["util/src/*"]
     }
   },
   "references": [

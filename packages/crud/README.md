@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>CRUD (@nestjsx/crud)</h1>
+  <h1>CRUD (@jifeon/crud)</h1>
 </div>
 <div align="center">
   <strong>for RESTful APIs built with NestJs</strong>
@@ -17,13 +17,13 @@
   <a href="https://github.com/nestjsx/crud/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/nestjsx/crud.svg" alt="License" />
   </a>
-  <a href="https://www.npmjs.com/package/@nestjsx/crud">
-    <img src="https://img.shields.io/npm/v/@nestjsx/crud.svg" alt="npm version" />
+  <a href="https://www.npmjs.com/package/@jifeon/crud">
+    <img src="https://img.shields.io/npm/v/@jifeon/crud.svg" alt="npm version" />
   </a>
   <a href="https://www.npmjs.com/org/nestjsx">
-    <img src="https://img.shields.io/npm/dm/@nestjsx/crud.svg" alt="npm downloads" />
+    <img src="https://img.shields.io/npm/dm/@jifeon/crud.svg" alt="npm downloads" />
   </a>
-  <a href="https://npm.packagequality.com/#?package=@nestjsx%2Fcrud">
+  <a href="https://npm.packagequality.com/#?package=@jifeon%2Fcrud">
     <img src="https://npm.packagequality.com/shield/%40nestjsx%2Fcrud.svg" alt="Package Quality" />
   </a>
   <a href="https://renovatebot.com/">
@@ -59,7 +59,7 @@
 
 <br />
 
-We believe that everyone who's working with NestJs and building some RESTful services and especially some CRUD functionality will find `@nestjsx/crud` microframework very useful.
+We believe that everyone who's working with NestJs and building some RESTful services and especially some CRUD functionality will find `@jifeon/crud` microframework very useful.
 
 ## Features
 
@@ -86,14 +86,14 @@ We believe that everyone who's working with NestJs and building some RESTful ser
 ## Install
 
 ```shell
-npm i @nestjsx/crud class-transformer class-validator
+npm i @jifeon/crud class-transformer class-validator
 ```
 
 ## Packages
 
-- [**@nestjsx/crud**](https://www.npmjs.com/package/@nestjsx/crud) - core package which provides `@Crud()` decorator for endpoints generation, global configuration, validation, helper decorators ([docs](https://github.com/nestjsx/crud/wiki/Controllers#description))
-- [**@nestjsx/crud-request**](https://www.npmjs.com/package/@nestjsx/crud-request) - request builder/parser package which provides `RequestQueryBuilder` class for a frontend usage and `RequestQueryParser` that is being used internally for handling and validating query/path params on a backend side ([docs](https://github.com/nestjsx/crud/wiki/Requests#frontend-usage))
-- [**@nestjsx/crud-typeorm**](https://www.npmjs.com/package/@nestjsx/crud-typeorm) - TypeORM package which provides base `TypeOrmCrudService` with methods for CRUD database operations ([docs](https://github.com/nestjsx/crud/wiki/ServiceTypeorm))
+- [**@jifeon/crud**](https://www.npmjs.com/package/@jifeon/crud) - core package which provides `@Crud()` decorator for endpoints generation, global configuration, validation, helper decorators ([docs](https://github.com/nestjsx/crud/wiki/Controllers#description))
+- [**@jifeon/crud-request**](https://www.npmjs.com/package/@jifeon/crud-request) - request builder/parser package which provides `RequestQueryBuilder` class for a frontend usage and `RequestQueryParser` that is being used internally for handling and validating query/path params on a backend side ([docs](https://github.com/nestjsx/crud/wiki/Requests#frontend-usage))
+- [**@jifeon/crud-typeorm**](https://www.npmjs.com/package/@jifeon/crud-typeorm) - TypeORM package which provides base `TypeOrmCrudService` with methods for CRUD database operations ([docs](https://github.com/nestjsx/crud/wiki/ServiceTypeorm))
 
 ## Documentation
 
