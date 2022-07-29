@@ -1,7 +1,7 @@
 {
   "name": "@jifeon/crud-request",
   "description": "NestJs CRUD for RESTful APIs - request query builder",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -47,7 +47,7 @@
     "build": "npx tsc -b"
   },
   "dependencies": {
-    "@jifeon/util": "^5.0.1",
+    "@jifeon/util": "^5.1.0",
     "qs": "^6.8.0"
   }
 }
